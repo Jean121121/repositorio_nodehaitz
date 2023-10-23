@@ -13,23 +13,23 @@ public class Main {
                 public static void main(String[] args) {
                     int NUM = 0; // Cambia este número por el que desees verificar
 
-                    boolean esPrimo = true; // Suponemos inicialmente que el número es primo
+                    boolean Primo = true; // Suponemos inicialmente que el número es primo
 
                     if (NUM <= 1) {
-                        esPrimo = false; // Los números menores o iguales a 1 no son primos
+                        Primo = false; // Los números menores o iguales a 1 no son primos
                     } else {
                         for (int i = 2; i <= NUM; i++) {
                             if (NUM % i == 0) {
-                                esPrimo = false; // Si es divisible por algún número distinto de 1 y sí mismo, no es primo
+                                Primo = false; // Si es divisible por algún número distinto de 1 y sí mismo, no es primo
                                 break; // Salimos del bucle
                             }
                         }
                     }
 
-                    if (esPrimo) {
-                        System.out.println(numero + " es un número primo.");
+                    if (Primo) {
+                        System.out.println(NUM + " es un número primo.");
                     } else {
-                        System.out.println(numero + " no es un número primo.");
+                        System.out.println(NUM + " no es un número primo.");
                     }
                 }
             }

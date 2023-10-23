@@ -2,6 +2,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
         {
+            int numero;
+            String cadena;
             //con el scaner cogeis un numero entero positivo y una cadena
 
             //ver el string es palindromo

@@ -6,7 +6,7 @@ public class Main {
             String cadena;
             //con el scaner cogeis un numero entero positivo y una cadena
 
-            //ver el string es palindromo
+            //ver el string es palitroque
             //[
             //ver si el numero es primo
 

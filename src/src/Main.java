@@ -22,6 +22,15 @@ public class Main {
 
             //mostrar el tamaño de la cadena
             System.out.println("La palabra "+cadena+" tiene "+cadena.length()+" letras.");
+            //
+            ///
+            //
+            7//
+            7//7
+            ////
+            ///
+            //7
+            /
         }
     }
 }
